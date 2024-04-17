@@ -1,0 +1,1 @@
+ C:\\Users\\Lenovo\\BirdApp\\login\\.dart_tool\\flutter_build\\440fee2fd7b40fcf6676d25907a7dc60\\native_assets.yaml: 

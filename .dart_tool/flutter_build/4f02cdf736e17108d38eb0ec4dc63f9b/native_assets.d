@@ -1,0 +1,1 @@
+ C:\\Users\\Lenovo\\Desktop\\BirdApp\\bird_species_detection\\.dart_tool\\flutter_build\\4f02cdf736e17108d38eb0ec4dc63f9b\\native_assets.yaml: 

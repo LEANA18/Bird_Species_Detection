@@ -21,9 +21,9 @@ class _DetailsScreenState extends State<DetailsScreen> {
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
-            colors: [
-              Color(0xFF524A41),
-              Color(0xFFAA928E),
+             colors: [
+              Color.fromARGB(255, 61, 138, 225),
+              Color.fromARGB(255, 115, 142, 171),
             ],
           ),
         ),
@@ -85,9 +85,13 @@ class RightSide extends StatelessWidget {
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
           colors: [
+              Color.fromARGB(255, 61, 138, 225),
+              Color.fromARGB(255, 115, 142, 171),
+            ],
+          /*colors: [
             Color(0xFF3a352f),
             Color(0xFF776d6d),
-          ],
+          ],*/
         ),
       ),
       width: mediaQuery.size.width * .35,

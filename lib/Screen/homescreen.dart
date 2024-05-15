@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:login/Screen/audio.dart';
+
 import 'package:login/Screen/birdimage.dart';
+import 'package:login/Screen/birdsanctuary.dart';
 import 'package:login/Screen/discover.dart';
-import 'package:login/Screen/profile.dart';
+
+import 'package:login/model/bird_model.dart';
 
 class Bottomnav extends StatefulWidget {
   const Bottomnav({Key? key}) : super(key: key);
@@ -17,9 +19,9 @@ class _BottomnavState extends State<Bottomnav> {
  
   final List<Map<String, dynamic>> pages = [
     {'page': DiscoverScreen(), }, 
-    {'page': birdPage(), }, 
-    {'page': AudioRecorder(), },
-    {'page':  ProfileScreen(),},
+    {'page': BirdPage(), }, 
+    {'page': SanctuaryScreen(), },
+   
   ];
 
 
@@ -45,10 +47,10 @@ class _BottomnavState extends State<Bottomnav> {
         selectedFontSize: 15,
         unselectedFontSize: 15,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.public), label: 'Discover'),
           BottomNavigationBarItem(icon: Icon(Icons.image), label: 'Image'),
-          BottomNavigationBarItem(icon: Icon(Icons.mic), label: 'Audio'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Sanctuary'),
+        
         ],
       ),
     );

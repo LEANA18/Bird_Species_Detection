@@ -83,7 +83,7 @@ class _BirdPageState extends State<BirdPage> {
       return;
     }
 
-    final apiKey = "AIzaSyClSiA-MgetF-GLRyVwEI_-mJDvjPkH5Xc";
+    final apiKey = "API Key";
     final model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
     final content = [Content.text("Generate Information of the Bird $_label")];
 
